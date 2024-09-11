@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage ...>
+    <VerticalStackLayout Spacing="15" Padding="20">
+        <Label Text =" Enter a Phoneword"
+               FontSize="20"/>
+        <Entry x:Name="PhoneNumerText"
+               Text =" 1-555-NETMAUI"/>
+        <Button x:Name-="TranslateButton"
+                Text ="TranslateButton"
+                Text =" Translate"/>
+        <Button> x:Name ="CallButton"
+            Text = "Call"
+            IsEnabled="false"
+            Clicked = "OnCall"/>
+/>
+
+    </VerticalStackLayout>
+
+</ContentPage...>
